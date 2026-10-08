@@ -1,0 +1,13 @@
+{
+  "name": "reflexion_70s",
+  "steps": [
+    {
+      "type": "turn",
+      "tom": "Prends ton temps pour réfléchir.",
+      "sirius": "Je réponds après soixante-dix secondes.",
+      "microphone": true,
+      "audio": "longue.mp3",
+      "delay_s": 70
+    }
+  ]
+}

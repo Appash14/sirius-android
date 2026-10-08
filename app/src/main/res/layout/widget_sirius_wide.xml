@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_talk" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center" android:orientation="horizontal" android:background="@drawable/widget_pill"
+    android:padding="6dp" android:contentDescription="@string/widget_talk">
+    <ImageView android:layout_width="40dp" android:layout_height="40dp"
+        android:background="@drawable/widget_circle" android:padding="8dp" android:src="@drawable/ic_sirius"
+        android:importantForAccessibility="no" />
+    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+        android:layout_marginStart="6dp" android:text="@string/widget_talk" android:textColor="#E3ECFF"
+        android:textSize="14sp" android:fontFamily="sans-serif-medium" android:maxLines="2" />
+</LinearLayout>

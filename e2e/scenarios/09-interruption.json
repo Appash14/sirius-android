@@ -1,0 +1,13 @@
+{
+  "name": "coupure_humaine",
+  "steps": [
+    {
+      "type": "turn",
+      "tom": "Parle longtemps pour tester mon interruption.",
+      "sirius": "Je continue ma phrase pendant le bruit bref, puis je me tais quand tu prends la parole.",
+      "microphone": true,
+      "audio": "longue.mp3",
+      "barge_in": true
+    }
+  ]
+}

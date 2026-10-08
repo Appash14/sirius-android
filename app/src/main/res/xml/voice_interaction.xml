@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice-interaction-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sessionService="fr.tom.sirius.SiriusSessionService"
+    android:recognitionService="fr.tom.sirius.SiriusRecognitionService"
+    android:settingsActivity="fr.tom.sirius.MainActivity"
+    android:supportsAssist="true" android:supportsLaunchVoiceAssistFromKeyguard="true" />

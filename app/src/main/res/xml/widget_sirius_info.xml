@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="56dp" android:minHeight="56dp" android:minResizeWidth="56dp" android:minResizeHeight="56dp"
+    android:targetCellWidth="1" android:targetCellHeight="1" android:resizeMode="horizontal"
+    android:updatePeriodMillis="0" android:widgetCategory="home_screen"
+    android:initialLayout="@layout/widget_sirius" android:previewLayout="@layout/widget_sirius_wide"
+    android:description="@string/widget_description" />

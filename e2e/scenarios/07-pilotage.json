@@ -1,0 +1,48 @@
+{
+  "name": "pilotage",
+  "pilot": true,
+  "steps": [
+    {
+      "type": "action",
+      "id": "ouvrir-reglages",
+      "action": "ouvrir",
+      "args": {
+        "paquet": "com.android.settings"
+      },
+      "ok": true,
+      "package": "com.android.settings",
+      "media_during_action": true
+    },
+    {
+      "type": "action",
+      "id": "toucher-coordonnees",
+      "action": "toucher",
+      "args": {
+        "x": 540,
+        "y": 1000
+      },
+      "ok": true,
+      "package": "com.android.settings"
+    },
+    {
+      "type": "action",
+      "id": "defiler-reglages",
+      "action": "defiler",
+      "args": {
+        "direction": "bas"
+      },
+      "ok": true,
+      "package": "com.android.settings"
+    },
+    {
+      "type": "action",
+      "id": "banque-interdite",
+      "action": "ouvrir",
+      "args": {
+        "paquet": "com.revolut.revolut"
+      },
+      "ok": false,
+      "reason": "application_bloquee"
+    }
+  ]
+}

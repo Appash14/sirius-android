@@ -1,0 +1,86 @@
+{
+  "name": "surimpression",
+  "steps": [
+    {
+      "type": "turn",
+      "tom": "Échange 1 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 1 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 2 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 2 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 3 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 3 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 4 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 4 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 5 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 5 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 6 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 6 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 7 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 7 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 8 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 8 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 9 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 9 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Échange 10 sur dix. Quelle est la suite ?",
+      "sirius": "Réponse 10 sur dix. Notre conversation continue.",
+      "pause": 0.4,
+      "microphone": true,
+      "audio": "longue.mp3"
+    }
+  ],
+  "overlay": true
+}

@@ -1,0 +1,19 @@
+{
+  "name": "conversation_simple",
+  "steps": [
+    {
+      "type": "turn",
+      "tom": "Bonjour Sirius, tu es là ?",
+      "sirius": "Bonjour Tom. Je suis là pour ce test Android.",
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "turn",
+      "tom": "Dis-moi si la connexion fonctionne.",
+      "sirius": "La connexion au faux serveur fonctionne.",
+      "microphone": true,
+      "audio": "longue.mp3"
+    }
+  ]
+}

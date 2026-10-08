@@ -1,0 +1,71 @@
+{
+  "source": "serveur.py.avant-doublon",
+  "sha256": "7e3ce1ed684195148c086e1260ede7cac26a798cecc5a279d5604dbc14086fdf",
+  "partials": [
+    {
+      "type": "partiel",
+      "client": "appareil-test",
+      "reply_to": null,
+      "enonce": "telephone-uuid",
+      "text": "mot1"
+    },
+    {
+      "type": "partiel",
+      "client": "appareil-test",
+      "reply_to": null,
+      "enonce": "telephone-uuid",
+      "text": "mot1 mot2"
+    },
+    {
+      "type": "partiel",
+      "client": "appareil-test",
+      "reply_to": null,
+      "enonce": "telephone-uuid",
+      "text": "mot1 mot2 mot3"
+    }
+  ],
+  "post_final": {
+    "accepted": true,
+    "id": "voix-1791285550460"
+  },
+  "message": {
+    "type": "message",
+    "id": "voix-1791285550460",
+    "role": "tom",
+    "text": "mot1 mot2 mot3",
+    "delivery": "pending",
+    "client": "appareil-test",
+    "reply_to": null,
+    "verrouille": true,
+    "epoch": 0,
+    "cancelled": false,
+    "enonce": "e1791285550459",
+    "at": "2026-10-06T11:19:10.525879+00:00"
+  },
+  "history": [
+    {
+      "type": "message",
+      "id": "voix-1791285550460",
+      "role": "tom",
+      "text": "mot1 mot2 mot3",
+      "delivery": "sent",
+      "client": "appareil-test",
+      "reply_to": null,
+      "verrouille": true,
+      "epoch": 0,
+      "cancelled": false,
+      "enonce": "e1791285550459",
+      "at": "2026-10-06T11:19:10.525879+00:00"
+    }
+  ],
+  "sirius_input": [
+    {
+      "texte": "mot1 mot2 mot3",
+      "id": "voix-1791285550460",
+      "client": "appareil-test",
+      "verrouille": true,
+      "fin": true,
+      "enonce": "e1791285550459"
+    }
+  ]
+}

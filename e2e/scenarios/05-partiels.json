@@ -1,0 +1,20 @@
+{
+  "name": "transcript_direct",
+  "steps": [
+    {
+      "type": "turn",
+      "microphone": true,
+      "wav": "partiels.wav",
+      "partials": [
+        "Bonjour Sirius",
+        "Bonjour Sirius les mots apparaissent"
+      ],
+      "tom": "Bonjour Sirius les mots apparaissent pendant que je parle.",
+      "sirius": "Oui Tom, je conserve une seule bulle par énoncé.",
+      "audio": "longue.mp3",
+      "legacy": true
+    }
+  ],
+  "early_speech": true,
+  "hello_delay": 4
+}

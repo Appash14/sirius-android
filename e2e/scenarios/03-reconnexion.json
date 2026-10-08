@@ -1,0 +1,24 @@
+{
+  "name": "coupure_reconnexion",
+  "steps": [
+    {
+      "type": "turn",
+      "tom": "Nous allons perdre le réseau.",
+      "sirius": "Je garde notre historique pendant la coupure.",
+      "microphone": true,
+      "audio": "reponse.mp3"
+    },
+    {
+      "type": "disconnect",
+      "seconds": 5,
+      "restart": true
+    },
+    {
+      "type": "turn",
+      "tom": "La connexion est-elle revenue ?",
+      "sirius": "Oui Tom, nous pouvons continuer après la reconnexion.",
+      "microphone": true,
+      "audio": "longue.mp3"
+    }
+  ]
+}

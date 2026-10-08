@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+output/
+certs/
+audio/*.wav
+audio/reponse.mp3
+audio/longue.mp3
+STATE.md
+ATTEMPTS.md

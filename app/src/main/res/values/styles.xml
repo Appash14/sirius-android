@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.Sirius" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#080F24</item>
+        <item name="android:navigationBarColor">#080F24</item>
+        <item name="android:windowBackground">#080F24</item>
+        <item name="android:colorAccent">#A6C8FF</item>
+    </style>
+    <style name="Theme.Sirius.Confirmation" parent="android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

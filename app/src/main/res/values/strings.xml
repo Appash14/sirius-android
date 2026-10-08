@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_description">Sirius peut lire l’écran, toucher, écrire et naviguer à ta demande. Le pilotage est désactivé par défaut. Aucune action sur écran verrouillé ni dans les applications bancaires ou de paiement. Les actions sensibles nécessitent ta confirmation dans une notification. Pendant le pilotage, une notification et une pastille gardent le bouton ARRÊTER.</string>
+    <string name="widget_talk">Parler à Sirius</string>
+    <string name="shortcut_talk">Parler</string>
+    <string name="shortcut_briefing">Briefing du matin</string>
+    <string name="widget_description">Une touche pour parler à Sirius. Agrandis le widget pour afficher son nom.</string>
+</resources>
